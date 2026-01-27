@@ -1,0 +1,3 @@
+OK_FORMAT = True
+
+test = {'name': 'q4a', 'points': 1, 'suites': [{'cases': [{'code': ">>> assert create_horizontal_flip_matrix().shape == (784, 784), 'Horizontal flip matrix should be 784x784'\n>>> gt_horizontal_flip_image = np.load('public_solutions/horizontal_flip_image.npy')\n>>> assert np.array_equal(horizontal_flip(test_image), gt_horizontal_flip_image), 'Horizontal flip image does not match solution'\n", 'hidden': False, 'locked': False, 'points': 0.5}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}

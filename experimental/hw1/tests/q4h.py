@@ -1,0 +1,3 @@
+OK_FORMAT = True
+
+test = {'name': 'q4h', 'points': 1, 'suites': [{'cases': [{'code': ">>> assert isinstance(augmented_data[0], dict), 'Each item in augmented_data should be a dictionary'\n>>> assert all((key in augmented_data[0] for key in ['original_idx', 'augmentation', 'image', 'label'])), 'Augmented data dictionaries missing required keys'\n>>> aug_types = aug_df['augmentation'].unique()\n>>> assert any(('shift' in aug for aug in aug_types)), 'No shift augmentations found'\n>>> assert any(('rotate' in aug for aug in aug_types)), 'No rotation augmentations found'\n>>> assert any(('blur' in aug for aug in aug_types)), 'No blur augmentations found'\n", 'hidden': False, 'locked': False, 'points': 1}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}

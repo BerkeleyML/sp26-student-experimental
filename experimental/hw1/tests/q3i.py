@@ -1,0 +1,3 @@
+OK_FORMAT = True
+
+test = {'name': 'q3i', 'points': 1, 'suites': [{'cases': [{'code': '>>> assert \'test_df_trouser\' in locals(), \'test_df_trouser should exist\'\n>>> assert all(test_df_trouser[\'label\'] == \'Trouser\'), "test_df_trouser should only contain rows where label is \'Trouser\'"\n>>> assert all(high_conf_incorrect[\'correct\'] == False), \'high_conf_incorrect should only contain incorrect predictions\'\n>>> assert \'high_conf_incorrect\' in locals(), \'high_conf_incorrect should exist\'\n>>> assert all(high_conf_incorrect[\'confidence\'].diff().fillna(0) <= 0), \'high_conf_incorrect should be sorted by confidence in descending order\'\n', 'hidden': False, 'locked': False, 'points': 1}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}
