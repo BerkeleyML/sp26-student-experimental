@@ -1,3 +1,0 @@
-OK_FORMAT = True
-
-test = {'name': 'q2a', 'points': 2, 'suites': [{'cases': [{'code': ">>> assert df['image'].apply(lambda img: img.shape == (784,)).all(), 'Not all images are flattened to shape (784,)'\n", 'hidden': False, 'locked': False}, {'code': ">>> assert len(kmeans_df) == len(df_sample), f'kmeans_df and df have different lengths {len(kmeans_df)} != {len(df)}'\n", 'hidden': False, 'locked': False}, {'code': ">>> assert set(kmeans_df.columns) == set(['cluster', 'label', 'image']), f'kmeans_df has unexpected columns {set(kmeans_df.columns)}'\n", 'hidden': False, 'locked': False}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}

@@ -1,3 +1,0 @@
-OK_FORMAT = True
-
-test = {'name': 'q0', 'points': 1, 'suites': [{'cases': [{'code': ">>> expected_columns = ['image', 'label']\n>>> assert all((col in df.columns for col in expected_columns)), f'Expected columns: {expected_columns}, got: {df.columns}'\n", 'hidden': False, 'locked': False}, {'code': '>>> assert df[\'image\'].apply(lambda x: isinstance(x, np.ndarray)).all(), f"All \'image\' values should be numpy arrays"\n', 'hidden': False, 'locked': False}, {'code': '>>> assert df[\'label\'].apply(lambda x: isinstance(x, str)).all(), "All \'label\' values should be strings"\n', 'hidden': False, 'locked': False}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}

@@ -1,3 +1,0 @@
-OK_FORMAT = True
-
-test = {'name': 'q1d', 'points': 1, 'suites': [{'cases': [{'code': ">>> assert examples.shape[0] == 20, f'Expected 20 samples, got {examples.shape[0]}'\n>>> counts = examples['label'].value_counts()\n>>> assert all(counts == 2), f'Each class should have 2 samples, got counts: {counts.to_dict()}'\n>>> assert set(examples.columns) == set(df.columns), f'Expected columns {set(df.columns)}, got {set(examples.columns)}'\n", 'hidden': False, 'locked': False, 'points': 1}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}
